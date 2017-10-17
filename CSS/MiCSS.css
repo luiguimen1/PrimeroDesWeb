@@ -1,0 +1,124 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 17/10/2017, 08:55:36 AM
+    Author     : usuario
+*/
+
+body{
+    background: #000;
+}
+
+#container{
+    position: relative;
+    margin: 0 auto;
+    width: 968px;
+    background: #00cc66;
+}
+
+header{
+
+}
+#logo{
+    width: 102px;
+}
+#logo img {
+    box-shadow: #000 2px 2px 2px;
+    border-radius: 15px;
+}
+
+#menu{
+    position: relative;
+    width: 20%;
+    background: red;
+    float: left;
+}
+
+#menu li{
+    list-style: none;
+    margin-top: 5px;
+}
+
+#menu li button {
+    width: 80%;
+    border-radius: 15px;
+    box-shadow: #000 2px 2px 2px;
+    transition-property: box-shadow, width;
+    transition-duration: 1s,1s;
+}
+
+#menu li button:hover {
+    box-shadow: #FFF 2px 2px 2px;
+    width: 90%;
+}
+
+#contenido{
+    position: relative;
+    width: 80%;
+    background: blue;
+    float: left;
+}
+
+#registro{
+    width:100%;
+}
+#registro label{
+    width: 50px;
+    height: 30px;
+    font-size: 15px;
+    font-weight: bold;
+}
+#registro input,select{
+    width: 50%;
+    height: 30px;
+}
+
+
+
+
+
+#pie{
+    width: 100%;
+}
+
+footer div{
+    width: 25%;
+    float: left;
+    color:#70EF91;
+    background: #D05D78;
+} 
+
+
+@media screen and (max-width: 480px){
+    #container{
+        width: 100%;
+    }
+
+    #menu{
+        width: 100%;
+    }
+    #menu li button {
+        width: 30%;
+        height: 40px;
+        float: left;
+        margin-top: 20px;
+    }
+    #menu li button:hover{
+        width: 30%;
+    }
+
+    #registro{
+        width:100%;
+    }
+
+    #registro label,input,select{
+        width: 100%;
+    }
+    #registro input,select{
+        height: 30px;
+    }
+
+}
